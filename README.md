@@ -22,18 +22,18 @@ mysite/
 
 2. **Create the database**:
    - Open phpMyAdmin
-   - Run the contents of `sql/schema.sql` (creates the `mysite_db` database and the `users` table)
+   - Run the contents of `sql/schema.sql` (creates the `UserHub_db` database and the `users` table)
 
 3. **Configure the connection**:
    - Open `config/db.php`
    - Update `$DB_USER` and `$DB_PASS` to match your MySQL setup (default is `root` with no password on XAMPP)
 
 4. **Copy the files**:
-   - Copy the whole `mysite` folder into `htdocs` (XAMPP) or `www` (WAMP)
+   - Copy the whole `UserHub` folder into `htdocs` (XAMPP) or `www` (WAMP)
 
 5. **Run it**:
    - Start Apache and MySQL from the XAMPP/WAMP control panel
-   - Open your browser at: `http://localhost/mysite/index.php`
+   - Open your browser at: `http://localhost/UserHub/index.php`
 
 ## Features
 - User registration with password hashing (`password_hash`)
