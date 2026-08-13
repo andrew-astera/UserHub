@@ -45,6 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <div class="container">
+        <div class="nav-home"><a href="index.php">&#8592; Home</a></div>
         <h1>Create New Account</h1>
 
         <?php if ($error): ?>
