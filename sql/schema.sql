@@ -11,10 +11,3 @@ CREATE TABLE IF NOT EXISTS users (
     avatar VARCHAR(255) DEFAULT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
-INSERT INTO users (full_name, email, password) VALUES
-('Sarah Wilson', 'Sarah.Wilson@astera.cg', '$2b$12$wBzzQyLEnPL8z/tWjgR6jer59R49P8umxhZePsxjlI1Zxr11aOmoq'),
-('William Walker', 'William.Walker@astera.cg', '$2b$12$pZfg8r6.ZZSZDpzbrcKP3up45CqsNszZbN9xyTZIsAo7SgxlnfpM2'),
-('Kevin Harris', 'Kevin.Harris@astera.cg', '$2b$12$bIJyt97i1xv0lEDD5xGXW.nWEkFMbiuWFl09UQ9xoQMTlpqp5oZ6m'),
-('Emily Davis', 'Emily.Davis@astera.cg', '$2b$12$bhFiq7spGCD9nTND3vBnm./ifK9.05qKC7bWIPYMdgMf95WLgGiNW'),
-('Sophia King', 'Sophia.King@astera.cg', '$2b$12$3pGrKMh14ZjnJ3zQArgJh.3.Q0qt2Zct2q0bVmrHYZOHYKzz.xn0G');
